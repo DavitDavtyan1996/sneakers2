@@ -13,7 +13,7 @@ const Header = ({ onClickCart }) => {
 
   return (
     <header className="d-flex justify-between align-center p-40	">
-     <Link to="">
+     <Link to="/">
      <div className="headerRight d-flex align-center">
         <img width="40px" height="40px" src="img/logo.png" alt="logo" />
         <div className="headerInfo ml-15">
