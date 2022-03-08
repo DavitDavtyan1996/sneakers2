@@ -13,9 +13,9 @@ const Header = ({ onClickCart }) => {
 
   return (
     <header className="d-flex justify-between align-center p-40	">
-     <Link to="/">
+     <Link to="">
      <div className="headerRight d-flex align-center">
-        <img width="40px" height="40px" src="/img/logo.png" alt="logo" />
+        <img width="40px" height="40px" src="img/logo.png" alt="logo" />
         <div className="headerInfo ml-15">
           <h3>React sneakers</h3>
           <p>Best sneakers store</p>
@@ -25,7 +25,7 @@ const Header = ({ onClickCart }) => {
 
       <ul className="headerRight d-flex align-center	">
         <li onClick={onClickCart} className="mr-30 d-flex align-center cu-p">
-          <img width="20px" height="20px" src="/img/cart.svg" alt="cart" />
+          <img width="20px" height="20px" src="img/cart.svg" alt="cart" />
           <span className="ml-10">${ totalPrice }</span>
         </li>
 
@@ -35,7 +35,7 @@ const Header = ({ onClickCart }) => {
             <img
               width="20px"
               height="20px"
-              src="/img/heart.png"
+              src="img/heart.png"
               alt="favorite"
             />
           </Link>
@@ -43,7 +43,7 @@ const Header = ({ onClickCart }) => {
 
      <Link to="/orders">
      <li>
-          <img width="20px" height="20px" src="/img/user.png" alt="user" />
+          <img width="20px" height="20px" src="img/user.png" alt="user" />
         </li>
      </Link>
       </ul>

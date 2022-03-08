@@ -44,7 +44,7 @@ const Drawer = ({ onClose, items = [], onRemove, opened }) => {
             className="removeBtn"
             width="40px"
             height="40px"
-            src="/img/btn-remove.png"
+            src="img/btn-remove.png"
           />
         </h2>
 
@@ -74,7 +74,7 @@ const Drawer = ({ onClose, items = [], onRemove, opened }) => {
                     className="removeBtn"
                     width="40px"
                     height="40px"
-                    src="/img/btn-remove.png"
+                    src="img/btn-remove.png"
                   />
                 </div>
               );
@@ -83,7 +83,7 @@ const Drawer = ({ onClose, items = [], onRemove, opened }) => {
         ) : (
           <Info
             title={isOrderComplete ? "Order complete" : "Bag is empty"}
-            image={isOrderComplete ? "/img/order.jpg" : "/img/bag.png"}
+            image={isOrderComplete ? "img/order.jpg" : "img/bag.png"}
             description={
               isOrderComplete
                 ? `Your order ${orderId} will come soon`
@@ -114,7 +114,7 @@ const Drawer = ({ onClose, items = [], onRemove, opened }) => {
               className="greenButton d-flex align-center justify-center"
             >
               Order checkout
-              <img width={20} height={20} src="/img/arrow.png" />
+              <img width={20} height={20} src="img/arrow.png" />
             </button>
           </div>
         )}

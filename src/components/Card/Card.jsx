@@ -55,7 +55,7 @@ const Card = ({
               width="40px"
               height="40px"
               src={
-                isFavorite ? "/img/hearth.liked.png" : "/img/hearth.unliked.png"
+                isFavorite ? "img/hearth.liked.png" : "img/hearth.unliked.png"
               }
               alt="unliked"
             />}
@@ -79,7 +79,7 @@ const Card = ({
               className={s.plus}
               width={35}
               height={35}
-              src={isItemAdded(id) ? "/img/btn-checked.png" : "/img/plus.png"}
+              src={isItemAdded(id) ? "img/btn-checked.png" : "img/plus.png"}
             />}
           </div>
         </div>
