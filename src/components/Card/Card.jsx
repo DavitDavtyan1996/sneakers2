@@ -64,7 +64,7 @@ const Card = ({
             className={s.mb - 10}
             width={133}
             height={132}
-            src={imageUrl}
+            src={process.env.PUBLIC_URL+ imageUrl}
             alt="Sneakers"
           />
           <p>{title}</p>
