@@ -114,7 +114,7 @@ const Drawer = ({ onClose, items = [], onRemove, opened }) => {
               className="greenButton d-flex align-center justify-center"
             >
               Order checkout
-              <img width={20} height={20} src="img/arrow.png" />
+              <img width={20} height={20} src="/img/arrow.png" />
             </button>
           </div>
         )}

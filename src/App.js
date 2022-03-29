@@ -28,9 +28,7 @@ function App() {
           "https://6211461801ccdac074208054.mockapi.io/favorites"
         );
 
-        const itemsResponse = await axios.get(
-          "https://6211461801ccdac074208054.mockapi.io/items"
-        );
+        const itemsResponse = await axios.get("http://localhost:3000/db.json");
 
         setIsLoading(false);
 
@@ -139,11 +137,11 @@ function App() {
             }
           />
           <Route
-            path="favorites"
+            path="/favorites"
             element={<Favorites onAddToFavorite={onAddToFavorite} />}
           />
 
-          <Route path="orders" element={<Orders />} />
+          <Route path="/orders" element={<Orders />} />
         </Routes>
       </div>
     </AppContext.Provider>
