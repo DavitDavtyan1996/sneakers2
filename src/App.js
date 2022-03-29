@@ -28,7 +28,7 @@ function App() {
           "https://6211461801ccdac074208054.mockapi.io/favorites"
         );
 
-        const itemsResponse = await axios.get("http://localhost:3000/db.json");
+        const itemsResponse = await axios.get("https://6211461801ccdac074208054.mockapi.io/items");
 
         setIsLoading(false);
 
